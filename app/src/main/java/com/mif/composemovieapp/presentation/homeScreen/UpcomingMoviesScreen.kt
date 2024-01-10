@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.presentation
+package com.mif.composemovieapp.presentation.homeScreen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -15,6 +15,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.mif.composemovieapp.util.Category
 import com.mif.composemovieapp.presentation.components.MovieItem
+import com.mif.composemovieapp.presentation.homeScreen.MovieListState
+import com.mif.composemovieapp.presentation.homeScreen.MovieListUiEvent
 
 @Composable
 fun UpcomingMoviesScreen(

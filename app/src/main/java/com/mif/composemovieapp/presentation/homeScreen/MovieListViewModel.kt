@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.presentation
+package com.mif.composemovieapp.presentation.homeScreen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

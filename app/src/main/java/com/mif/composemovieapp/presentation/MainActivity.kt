@@ -16,7 +16,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import com.mif.composemovieapp.presentation.HomeScreen
+import com.mif.composemovieapp.presentation.homeScreen.HomeScreen
 import com.mif.composemovieapp.presentation.detailsScreen.DetailsScreen
 import com.mif.composemovieapp.util.Screen
 import com.mif.composemovieapp.ui.theme.ComposeMovieAppTheme

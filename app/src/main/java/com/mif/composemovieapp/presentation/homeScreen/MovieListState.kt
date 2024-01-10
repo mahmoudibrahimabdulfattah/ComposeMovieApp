@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.presentation
+package com.mif.composemovieapp.presentation.homeScreen
 
 import com.mif.composemovieapp.movieList.domain.model.Movie
 
