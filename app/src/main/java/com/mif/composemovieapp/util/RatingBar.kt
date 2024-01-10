@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.movieList.util
+package com.mif.composemovieapp.util
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.icons.Icons

@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.movieList.util
+package com.mif.composemovieapp.util
 
 sealed class Screen(val rout: String) {
     object Home : Screen("main")

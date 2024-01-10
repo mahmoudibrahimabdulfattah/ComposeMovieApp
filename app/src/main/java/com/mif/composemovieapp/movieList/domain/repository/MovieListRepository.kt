@@ -1,7 +1,7 @@
 package com.mif.composemovieapp.movieList.domain.repository
 
 import com.mif.composemovieapp.movieList.domain.model.Movie
-import com.mif.composemovieapp.movieList.util.Resource
+import com.mif.composemovieapp.util.Resource
 import kotlinx.coroutines.flow.Flow
 
 interface MovieListRepository {

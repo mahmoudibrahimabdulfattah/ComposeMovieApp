@@ -9,7 +9,7 @@ import com.mif.composemovieapp.movieList.data.mapper.toMovieEntity
 import com.mif.composemovieapp.movieList.data.remote.MovieApi
 import com.mif.composemovieapp.movieList.domain.model.Movie
 import com.mif.composemovieapp.movieList.domain.repository.MovieListRepository
-import com.mif.composemovieapp.movieList.util.Resource
+import com.mif.composemovieapp.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import java.io.IOException
@@ -34,7 +34,8 @@ class MovieListRepositoryImpl @Inject constructor(
             val shouldLoadLocalMovie = localMovieList.isNotEmpty() && !forceFetchFromRemote
 
             if (shouldLoadLocalMovie) {
-                emit(Resource.Success(
+                emit(
+                    Resource.Success(
                     data = localMovieList.map { movieEntity ->
                         movieEntity.toMovie(category)
                     }
@@ -68,7 +69,8 @@ class MovieListRepositoryImpl @Inject constructor(
 
             movieDatabase.movieDao.upsertMovieList(movieEntities)
 
-            emit(Resource.Success(
+            emit(
+                Resource.Success(
                 movieEntities.map { it.toMovie(category) }
             ))
             emit(Resource.Loading(false))

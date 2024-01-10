@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.movieList.util
+package com.mif.composemovieapp.util
 
 sealed class Resource<T>(
     val data: T? = null,

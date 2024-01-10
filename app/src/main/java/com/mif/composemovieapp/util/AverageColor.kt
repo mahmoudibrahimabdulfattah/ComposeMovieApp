@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.movieList.util
+package com.mif.composemovieapp.util
 
 import android.graphics.Bitmap
 import androidx.compose.runtime.Composable
