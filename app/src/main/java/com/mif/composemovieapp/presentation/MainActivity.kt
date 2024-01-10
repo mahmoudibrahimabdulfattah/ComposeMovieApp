@@ -17,6 +17,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.mif.composemovieapp.presentation.HomeScreen
+import com.mif.composemovieapp.presentation.detailsScreen.DetailsScreen
 import com.mif.composemovieapp.util.Screen
 import com.mif.composemovieapp.ui.theme.ComposeMovieAppTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -51,7 +52,7 @@ class MainActivity : ComponentActivity() {
                                 navArgument("movieId") { type = NavType.IntType }
                             )
                         ){
-                            //DetailsScreen()
+                            DetailsScreen()
                         }
                     }
 
