@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.movieList.data.remote.respond
+package com.mif.composemovieapp.data.remote.respond
 
 data class MovieDto(
     val adult: Boolean?,

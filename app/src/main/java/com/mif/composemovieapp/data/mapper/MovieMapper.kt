@@ -1,8 +1,8 @@
-package com.mif.composemovieapp.movieList.data.mapper
+package com.mif.composemovieapp.data.mapper
 
-import com.mif.composemovieapp.movieList.data.local.MovieEntity
-import com.mif.composemovieapp.movieList.data.remote.respond.MovieDto
-import com.mif.composemovieapp.movieList.domain.model.Movie
+import com.mif.composemovieapp.data.local.MovieEntity
+import com.mif.composemovieapp.data.remote.respond.MovieDto
+import com.mif.composemovieapp.domain.model.Movie
 
 fun MovieDto.toMovieEntity(
     category: String

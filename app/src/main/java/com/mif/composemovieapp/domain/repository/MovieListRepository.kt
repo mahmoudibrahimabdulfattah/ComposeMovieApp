@@ -1,6 +1,6 @@
-package com.mif.composemovieapp.movieList.domain.repository
+package com.mif.composemovieapp.domain.repository
 
-import com.mif.composemovieapp.movieList.domain.model.Movie
+import com.mif.composemovieapp.domain.model.Movie
 import com.mif.composemovieapp.util.Resource
 import kotlinx.coroutines.flow.Flow
 

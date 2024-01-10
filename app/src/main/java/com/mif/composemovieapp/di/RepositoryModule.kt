@@ -1,7 +1,7 @@
 package com.mif.composemovieapp.di
 
-import com.mif.composemovieapp.movieList.data.repository.MovieListRepositoryImpl
-import com.mif.composemovieapp.movieList.domain.repository.MovieListRepository
+import com.mif.composemovieapp.data.repository.MovieListRepositoryImpl
+import com.mif.composemovieapp.domain.repository.MovieListRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

@@ -3,8 +3,8 @@ package com.mif.composemovieapp.di
 import android.app.Application
 import androidx.room.Room
 import com.mif.composemovieapp.BuildConfig
-import com.mif.composemovieapp.movieList.data.local.MovieDatabase
-import com.mif.composemovieapp.movieList.data.remote.MovieApi
+import com.mif.composemovieapp.data.local.MovieDatabase
+import com.mif.composemovieapp.data.remote.MovieApi
 import com.mif.composemovieapp.util.Constant
 import dagger.Module
 import dagger.Provides

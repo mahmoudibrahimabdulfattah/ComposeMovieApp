@@ -2,7 +2,7 @@ package com.mif.composemovieapp.presentation.homeScreen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mif.composemovieapp.movieList.domain.repository.MovieListRepository
+import com.mif.composemovieapp.domain.repository.MovieListRepository
 import com.mif.composemovieapp.util.Category
 import com.mif.composemovieapp.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -1,6 +1,6 @@
 package com.mif.composemovieapp.presentation.homeScreen
 
-import com.mif.composemovieapp.movieList.domain.model.Movie
+import com.mif.composemovieapp.domain.model.Movie
 
 data class MovieListState(
     val isLoading: Boolean = false,

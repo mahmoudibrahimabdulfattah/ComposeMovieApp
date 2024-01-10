@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.movieList.data.local
+package com.mif.composemovieapp.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

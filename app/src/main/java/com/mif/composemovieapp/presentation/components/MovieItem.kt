@@ -43,7 +43,7 @@ import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import com.mif.composemovieapp.BuildConfig
 import coil.size.Size
-import com.mif.composemovieapp.movieList.domain.model.Movie
+import com.mif.composemovieapp.domain.model.Movie
 import com.mif.composemovieapp.util.Constant
 import com.mif.composemovieapp.util.RatingBar
 import com.mif.composemovieapp.util.Screen

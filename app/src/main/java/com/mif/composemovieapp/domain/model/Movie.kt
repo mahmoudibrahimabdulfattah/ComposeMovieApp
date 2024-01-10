@@ -1,4 +1,4 @@
-package com.mif.composemovieapp.movieList.domain.model
+package com.mif.composemovieapp.domain.model
 
 data class Movie(
     val adult: Boolean,

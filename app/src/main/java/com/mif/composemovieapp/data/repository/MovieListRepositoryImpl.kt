@@ -1,14 +1,14 @@
-package com.mif.composemovieapp.movieList.data.repository
+package com.mif.composemovieapp.data.repository
 
 import android.net.http.HttpException
 import android.os.Build
 import androidx.annotation.RequiresExtension
-import com.mif.composemovieapp.movieList.data.local.MovieDatabase
-import com.mif.composemovieapp.movieList.data.mapper.toMovie
-import com.mif.composemovieapp.movieList.data.mapper.toMovieEntity
-import com.mif.composemovieapp.movieList.data.remote.MovieApi
-import com.mif.composemovieapp.movieList.domain.model.Movie
-import com.mif.composemovieapp.movieList.domain.repository.MovieListRepository
+import com.mif.composemovieapp.data.local.MovieDatabase
+import com.mif.composemovieapp.data.mapper.toMovie
+import com.mif.composemovieapp.data.mapper.toMovieEntity
+import com.mif.composemovieapp.data.remote.MovieApi
+import com.mif.composemovieapp.domain.model.Movie
+import com.mif.composemovieapp.domain.repository.MovieListRepository
 import com.mif.composemovieapp.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
