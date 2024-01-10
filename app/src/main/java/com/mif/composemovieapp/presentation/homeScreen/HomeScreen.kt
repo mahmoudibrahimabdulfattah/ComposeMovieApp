@@ -102,12 +102,14 @@ fun HomeScreen(navController: NavHostController) {
 fun BottomNavigationBar(
     bottomNavController: NavHostController, onEvent: (MovieListUiEvent) -> Unit
 ) {
+    val movieListViewModel = hiltViewModel<MovieListViewModel>()
 
     val items = listOf(
         BottomItem(
             title = stringResource(R.string.popular),
             icon = Icons.Rounded.Movie
-        ), BottomItem(
+        ),
+        BottomItem(
             title = stringResource(R.string.upcoming),
             icon = Icons.Rounded.Upcoming
         )
@@ -129,12 +131,14 @@ fun BottomNavigationBar(
                                 onEvent(MovieListUiEvent.Navigate)
                                 bottomNavController.popBackStack()
                                 bottomNavController.navigate(Screen.PopularMovieList.rout)
+                                movieListViewModel.movieListState.value.isCurrentPopularScreen = true
                             }
 
                             1 -> {
                                 onEvent(MovieListUiEvent.Navigate)
                                 bottomNavController.popBackStack()
                                 bottomNavController.navigate(Screen.UpcomingMovieList.rout)
+                                movieListViewModel.movieListState.value.isCurrentPopularScreen = false
                             }
                         }
                     }, icon = {
